@@ -1,0 +1,27 @@
+{
+  "name": "javascript-weather-app",
+  "version": "1.0.0",
+  "description": "Integrating with the DarkSky Weather API and the Google Places API. Сonnect to an API from both the client and the server. Safely stores API keys for use.",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikitaAntonov/JavaScript-Weather-App.git"
+  },
+  "author": "Antonov Nikita <frontend.antonoff@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikitaAntonov/JavaScript-Weather-App/issues"
+  },
+  "homepage": "https://github.com/nikitaAntonov/JavaScript-Weather-App#readme",
+  "dependencies": {
+    "axios": "^0.19.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.2"
+  }
+}
